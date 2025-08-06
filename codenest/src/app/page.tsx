@@ -71,7 +71,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white px-6 py-8">
       <header className="flex justify-between items-center mb-10">
-        <h1 className="text-3xl font-extrabold text-blue-400">Robu Series</h1>
+        <h1 className="text-3xl font-extrabold text-blue-400">robo Series</h1>
         {!isLoggedIn && (
           <Button onClick={() => setShowLogin(true)} className="bg-blue-500 hover:bg-blue-600">
             <User className="mr-2 w-4 h-4" />
@@ -118,7 +118,7 @@ export default function HomePage() {
           className="text-center mt-24 max-w-3xl mx-auto"
         >
           <h2 className="text-5xl font-bold mb-6 text-white drop-shadow-lg">
-            Welcome to Robu Series
+            Welcome to robo Series
           </h2>
           <p className="text-lg text-gray-300 mb-8">
             Your gateway to learning Embedded Systems, Microcontrollers, Real-Time Projects,

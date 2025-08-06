@@ -1,9 +1,8 @@
 {
-  "name": "robuseries",
+  "name": "roboseries",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    
     "dev": "next dev",
     "build": "next build",
     "deploy": "gh-pages -d out",
